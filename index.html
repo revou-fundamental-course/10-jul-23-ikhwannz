@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulator BMI</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="main">
+        <h4>Apa itu Kalkulator BMI?</h4>
+        <p>
+          Kalkulator BMI adalah metrik standar yang digunakan untuk menentukan
+          siapa saja yang masuk dalam golongan berat badan sehat dan tidak
+          sehat. Menghitung berat badan ideal membantu anda menjaga kesehatan.
+        </p>
+        <br/>
+        <h4>Keunggulan Fitur</h4>
+        <p>1. Menghitung berat badan</p>
+        <p>2. Menghitung tinggi badan</p>
+        <p>3. Menentukan kategori berat badan ideal atau tidak</p>
+        <br/>
+        <p>
+          Gunakan kalkulator BMI ini untuk memeriksa Indeks Massa Tubuh (IMT)
+          dan mengecek apakah berat badan Anda ideal atau tidak. Masukkan berat
+          dan tinggi badan yang sesuai dengan Anda.
+        </p>
+      </div>
+      <div class="main">
+        <h3>Kalkulator BMI</h3>
+        <div class="umur">
+          <label for="umur">Age</label><br />
+          <input type="number" id="umur" placeholder="Masukkan umur anda" />
+        </div>
+        <div class="gender">
+          <div class="laki">
+            <input type="radio" name="r1" id="m" />
+            <label for="m">Laki-Laki</label>
+          </div>
+          <div class="perempuan">
+            <input type="radio" name="r1" id="f" />
+            <label for="f">Perempuan</label>
+          </div>
+        </div>
+        <div class="datahitung">
+          <div class="tinggi">
+            <label for="tinggi">Tinggi Badan(cm)</label><br />
+            <input type="number" id="tinggi" placeholder="Contoh: 170" />
+          </div>
+          <div class="berat">
+            <label for="berat">Berat Badan(kg)</label><br />
+            <input type="number" id="berat" placeholder="Contoh: 50" />
+          </div>
+        </div>
+        <p class="error"></p>
+        <div class="btn">
+          <button id="btnhitung" class="btnbmi" onclick="hitung()">
+            Hitung BMI
+          </button>
+        </div>
+        <div class="hasil">
+          <div id="hasil"></div>
+          <p class="comment"></p>
+        </div>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #92B4EC;
+  font-family: "Poppins", sans-serif;
+}
+
+.main {
+  height: 400px;
+  width: 350px;
+  background-color: #FFFFFF;
+  padding: 30px 30px;
+  margin-left: 30px;
+  border-radius: 10px;
+}
+.main p {
+  font-size: 12px;
+  margin-top: 5px;
+  color: #354259;
+}
+
+h4 {
+  color: #354259;
+}
+h3 {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: #354259;
+}
+
+.umur {
+  text-align: left;
+  font-size: 13px;
+  line-height: 10px;
+  color: #354259;
+}
+.umur input {
+  width: 325px;
+  height: 25px;
+  border-radius: 10px;
+  border: 2px solid #6E85B7;
+  padding: 5px 10px;
+  margin-top: 10px;
+}
+.umur input:focus,
+.datahitung input:focus {
+  outline: none;
+}
+
+.datahitung input {
+  width: 132px;
+  height: 25px;
+  border-radius: 10px;
+  border: 2px solid #6E85B7;
+  padding: 5px 10px;
+  margin-top: 10px;
+}
+
+.gender {
+  display: flex;
+  padding: 20px;
+  font-size: 13px;
+  color: #354259;
+}
+.gender input {
+  margin-right: 5px;
+  width: 12px;
+  height: 12px;
+}
+.gender .laki {
+  margin-left: 20px;
+}
+.gender .perempuan {
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.datahitung {
+  display: flex;
+  padding: 0px 3px;
+  font-size: 13px;
+  line-height: 10px;
+  color: #354259;
+}
+.datahitung .berat {
+  margin-left: 30px;
+}
+
+.btn {
+  text-align: center;
+}
+.btnbmi {
+  background-color: #6E85B7;
+  color: #ffffff;
+  border: none;
+  width: 150px;
+  font-size: 15px;
+  margin-top: 20px;
+  padding: 10px 5px;
+  border-radius: 10px;
+}
+
+.hasil {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 20px;
+  background-color: #C4D7E0;
+  color: #354259;
+  font-weight: 500;
+  padding: 20px 0px;
+  border-radius: 10px;
+  display: none;
+}
+
+.comment {
+  margin-top: 15px;
+}
+
+.error {
+  text-align: center;
+  background-color: #fedfe1;
+  color: #cd4243;
+  padding: 10px 10px;
+  border-radius: 10px;
+  display: none;
+}
